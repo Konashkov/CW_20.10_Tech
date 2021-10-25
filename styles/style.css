@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+}
+.logo{
+    height: 50px;
+    width: 100px;
+    margin:0px   auto;
+    
+}
+.main {
+    height: 100vh;
+    background-image: url('../img/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    padding: 50px 0;
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
+.text-title, .text-subtitle, .main-button {
+    color: white;
+    font-family: 'Bebas';
+    text-align:center;
+    margin:0;
+}
+
+
+
+.text-title {
+    font-weight: bold;
+}
+
+.text-subtitle {
+    font-weight: normal;
+    align-items: center;
+}
