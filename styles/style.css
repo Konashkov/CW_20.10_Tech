@@ -87,9 +87,7 @@ body {
     height: 2px;
     background-color: #00A4E5;
 }
-.about{
-    height: 100vh;
-}
+
 .about-big{
     display: flex;
     margin: auto;
@@ -113,7 +111,10 @@ body {
 }
 .about-text-second{
     height: 115px;
-    font-size: 13px;
+    font-family: 'Open Sans';
+    font-weight: normal;
+    color: #48555B;
+    font-size: 20px;
 }
 .about-imgs{
     height: 224px;
@@ -144,5 +145,46 @@ body {
 .img-third{
     background-image: url(../img/img-third.png);
 }
-
+.capabilities{
+    width: 100vw;
+    margin-top: 100px;
+}
+.capabilities-text{
+    width: 50%;
+    margin: 0;
+}
+.capabilities-first{
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+.all-services{
+    background-color: #00A4E5;
+    height: 50px;
+    width:150px;
+    text-align: center;
+    color: white;
+    font-family: 'Open Sans';
+    font-weight:bolder
+}
+.capabilities-underline{
+    margin: 0;
+    margin-left: 30px;
+}
+.capabilities-img{
+    width: 100px;
+}
+.capabalities-box{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.capabalities-boxes{
+    border:2px solid #687379;
+    padding-top:  30px;
+    width: 25%;
+    height: 450px;
+    padding:0 15px;
+}
 
